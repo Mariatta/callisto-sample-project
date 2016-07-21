@@ -10,6 +10,7 @@ This project demonstrates example usage of callisto-core. The hope is to encoura
 
 LICENSE: GPLv3
 
+
 Code of conduct
 -----------------
 
