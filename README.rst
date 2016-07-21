@@ -13,7 +13,7 @@ LICENSE: GPLv3
 Code of conduct
 ====================
 
-This project adheres to a [code of conduct](https://github.com/SexualHealthInnovations/callisto-core/blob/master/CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to tech@sexualhealthinnovations.org.
+This project adheres to a code of conduct(https://github.com/SexualHealthInnovations/callisto-core/blob/master/CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to tech@sexualhealthinnovations.org.
 
 Settings
 ------------
