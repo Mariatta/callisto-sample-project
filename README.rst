@@ -11,9 +11,43 @@ This project demonstrates example usage of callisto-core. The hope is to encoura
 LICENSE: GPLv3
 
 Code of conduct
-====================
+-----------------
 
 This project adheres to a code of conduct(https://github.com/SexualHealthInnovations/callisto-core/blob/master/CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to tech@sexualhealthinnovations.org.
+
+
+Setting up a development environment
+------------
+
+Install pip, virtualenv, and npm if you don't have them already.
+
+Clone this repo.
+
+Make a virtual environment::
+
+    $ mkvirtualenv --python=python3 callisto-sample-project
+    
+Install npm depenencies::
+
+  $ npm install
+
+Install pip dependencies::
+
+  $ pip install -r requirements/local.txt
+
+Create a database::
+
+  $ createdb callisto-sample-project
+  
+Run the migrations::
+
+  $ ./manage.py migrate
+  
+Run your first development server::
+
+  $ npm start
+
+
 
 Settings
 ------------
@@ -139,5 +173,4 @@ Docker
 See detailed `cookiecutter-django Docker documentation`_.
 
 .. _`cookiecutter-django Docker documentation`: http://cookiecutter-django.readthedocs.io/en/latest/deployment-with-docker.html
-
 
