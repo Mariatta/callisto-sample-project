@@ -7,6 +7,9 @@ This project demonstrates example usage of callisto-core. The hope is to encoura
      :target: https://github.com/pydanny/cookiecutter-django/
      :alt: Built with Cookiecutter Django
 
+.. image:: https://codeclimate.com/github/SexualHealthInnovations/callisto-sample-project/badges/gpa.svg
+   :target: https://codeclimate.com/github/SexualHealthInnovations/callisto-sample-project
+   :alt: Code Climate
 
 LICENSE: GPLv3
 
